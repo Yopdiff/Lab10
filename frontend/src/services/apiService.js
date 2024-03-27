@@ -1,7 +1,7 @@
 // src/services/apiService.js
 import axios from 'axios';
 
-const BASE_URL = 'https://dummyjson.com/products';
+const BASE_URL = 'http://localhost:5000/products';
 
 // Fetches details for a single product by its ID
 export const getProductDetails = async (id) => {
